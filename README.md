@@ -26,8 +26,22 @@
 * pull frame from camera
 * push frame to AWS
 * parse response
-* does the response contain "cat"
+* does the response contain ~~"Cat"~~ "Human"
   * is the confidence over 60%
     * turn light on
   * no, turn the light off
 * no, turn the light off
+
+### Changes to Original Plan
+* change from recognizing cats to people, as I don't have a cat
+* change from lighting an LED to making a sound, as I can't find an LED and it's 3AM
+
+## Usage
+1. Install Dependencies with `install-requirements.sh`
+2. Follow Instructions [here](https://github.com/boto/boto3#quick-start) to create AWS config files for Boto3
+3. Run Programs with `./detect.py <URL OF IMAGE>` or `./recognize.py`
+
+
+### Audio Files Used:
+* [Hello](http://soundbible.com/678-Hello.html)
+* [Meow](http://soundbible.com/674-Cat-Meow.html)

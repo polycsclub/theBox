@@ -41,7 +41,10 @@
 2. Follow Instructions [here](https://github.com/boto/boto3#quick-start) to create AWS config files for Boto3
 3. Run Programs with `./detect.py <URL OF IMAGE>` or `./recognize.py`
 
+## [Current Version Demo](https://www.youtube.com/watch?v=Vzd3liGFyoU):
+[![TheBox Demo](https://img.youtube.com/vi/Vzd3liGFyoU/0.jpg)](https://www.youtube.com/watch?v=Vzd3liGFyoU)
 
 ### Audio Files Used:
 * [Hello](http://soundbible.com/678-Hello.html)
 * [Meow](http://soundbible.com/674-Cat-Meow.html)
+

@@ -33,4 +33,4 @@ for instance in rekognition_result["Labels"]:
     print(str(instance["Name"]) + " : " + str(instance["Confidence"]))
     if str(instance["Name"]) == object and instance["Confidence"] >= threshold :
         print("Valid " + object);
-        error = call(["ffplay", "-nodisp", "-autoexit", object + ".mp3"])
+        error = call(["ffplay", "-nodisp", "-autoexit", "./sfx/" + object + ".mp3"])

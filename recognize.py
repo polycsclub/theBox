@@ -5,14 +5,21 @@ import requests
 from subprocess import call
 import cv2
 import base64
+import RPi.GPIO as GPIO
 
 threshold = 70		# set the threshold percentage to accept
 object = "Human"	# set the object name to be recognized
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(26, GPIO.OUT, initial=GPIO.LOW)
+GPIO.setup(20, GPIO.OUT, initial=GPIO.LOW)
+GPIO.setup(21, GPIO.OUT, initial=GPIO.LOW)
+
 
 # Open Rekognition Session
 session = boto3.Session(profile_name="default")
 rekognition = session.client("rekognition")
 
+while True :
 # Pull image from camera
 capture = cv2.VideoCapture(0)
 return_value, image = capture.read()
@@ -33,4 +40,8 @@ for instance in rekognition_result["Labels"]:
     print(str(instance["Name"]) + " : " + str(instance["Confidence"]))
     if str(instance["Name"]) == object and instance["Confidence"] >= threshold :
         print("Valid " + object);
-        error = call(["ffplay", "-nodisp", "-autoexit", "./sfx/" + object + ".mp3"])
+        GPIO.output(26, GPIO.HIGH)
+    else:
+        GPIO.output(26, GPIO.LOW)
+
+GPIO.cleanup([26, 20, 21])

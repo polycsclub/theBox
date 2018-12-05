@@ -10,9 +10,9 @@ import RPi.GPIO as GPIO
 threshold = 70		# set the threshold percentage to accept
 object = "Human"	# set the object name to be recognized
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(26, GPIO.OUT, initial=GPIO.LOW)
-GPIO.setup(20, GPIO.OUT, initial=GPIO.LOW)
-GPIO.setup(21, GPIO.OUT, initial=GPIO.LOW)
+GPIO.setup(26, GPIO.OUT, initial=GPIO.HIGH)
+GPIO.setup(20, GPIO.OUT, initial=GPIO.HIGH)
+GPIO.setup(21, GPIO.OUT, initial=GPIO.HIGH)
 
 
 # Open Rekognition Session

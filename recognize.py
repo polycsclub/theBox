@@ -40,8 +40,8 @@ while True :
         print(str(instance["Name"]) + " : " + str(instance["Confidence"]))
         if str(instance["Name"]) == object and instance["Confidence"] >= threshold :
             print("Valid " + object);
-            GPIO.output(26, GPIO.HIGH)
-        else:
             GPIO.output(26, GPIO.LOW)
+        else:
+            GPIO.output(26, GPIO.HIGH)
 
 GPIO.cleanup([26, 20, 21])

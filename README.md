@@ -4,6 +4,7 @@
 * Raspberry Pi
 * Camera
 * Power of some sort
+* LED
 
 ## Software
 * Python
@@ -34,7 +35,7 @@
 
 ### Changes to Original Plan
 * change from recognizing cats to people, as I don't have a cat
-* change from lighting an LED to making a sound, as I can't find an LED and it's 3AM
+* ~~change from lighting an LED to making a sound, as I can't find an LED and it's 3AM~~ bought LEDs
 
 ## Usage
 1. Install Dependencies with `install-requirements.sh`
@@ -43,8 +44,3 @@
 
 ## [Current Version Demo](https://www.youtube.com/watch?v=Vzd3liGFyoU):
 [![TheBox Demo](https://img.youtube.com/vi/Vzd3liGFyoU/0.jpg)](https://www.youtube.com/watch?v=Vzd3liGFyoU)
-
-### Audio Files Used:
-* [Hello](http://soundbible.com/678-Hello.html)
-* [Meow](http://soundbible.com/674-Cat-Meow.html)
-

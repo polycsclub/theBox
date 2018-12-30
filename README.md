@@ -1,5 +1,7 @@
 # The Box
 
+![Model in Fusion 360](https://raw.githubusercontent.com/sciencedude100/theBox/master/model.png)
+
 ## Parts
 * Raspberry Pi
 * Camera
@@ -35,12 +37,12 @@
 
 ### Changes to Original Plan
 * change from recognizing cats to people, as I don't have a cat
-* ~~change from lighting an LED to making a sound, as I can't find an LED and it's 3AM~~ bought LEDs
+* ~~change from lighting an LED to making a sound, as I can't find an LED and it's 3AM~~ bought some LEDs
 
 ## Usage
 1. Install Dependencies with `install-requirements.sh`
 2. Follow Instructions [here](https://github.com/boto/boto3#quick-start) to create AWS config files for Boto3
 3. Run Programs with `./detect.py <URL OF IMAGE>` or `./recognize.py`
 
-## [Current Version Demo](https://www.youtube.com/watch?v=Vzd3liGFyoU):
+## [`detect.py` Demo](https://www.youtube.com/watch?v=Vzd3liGFyoU):
 [![TheBox Demo](https://img.youtube.com/vi/Vzd3liGFyoU/0.jpg)](https://www.youtube.com/watch?v=Vzd3liGFyoU)

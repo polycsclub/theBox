@@ -3,10 +3,20 @@
 ![Model in Fusion 360](https://raw.githubusercontent.com/sciencedude100/theBox/master/model.png)
 
 ## Parts
-* Raspberry Pi
-* Camera
-* Power of some sort
-* LED
+* [Raspberry Pi Zero W](https://www.adafruit.com/product/3400)
+* [Micro SD Card](https://www.amazon.com/gp/product/B00MHZ6ZVO)
+* [Micro-B OTG Adapter](https://www.amazon.com/CableCreation-Adapter-Samsung-Android-Function/dp/B01LYYAOIE)
+* [Sony PS3 Eye](https://www.amazon.com/Sony-Station-Camera-Packaging-PlayStation-3/dp/B0735KNH2X)
+* [Wireless Charging Coil](https://www.adafruit.com/product/1901)
+* [Power Switch](https://www.adafruit.com/product/805)
+* [18650 Battery](https://www.amazon.com/GMT-Protective-INR18650-25R-Rechargeable-Batteries/dp/B07GD98RNS)
+* [Battery Management Circuit](https://www.amazon.com/gp/product/B07CZWDT8M)
+* [LED](https://www.adafruit.com/product/848)
+* Miscellaneous
+  * Super Glue
+  * Electrical Tape
+  * 3D Printed Box
+  * Wire & Solder
 
 ## Software
 * Python
@@ -38,6 +48,8 @@
 ### Changes to Original Plan
 * change from recognizing cats to people, as I don't have a cat
 * ~~change from lighting an LED to making a sound, as I can't find an LED and it's 3AM~~ bought some LEDs
+
+![The Box](https://raw.githubusercontent.com/sciencedude100/theBox/master/theBox.png)
 
 ## Usage
 1. Install Dependencies with `install-requirements.sh`

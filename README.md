@@ -49,7 +49,7 @@
 * change from recognizing cats to people, as I don't have a cat
 * ~~change from lighting an LED to making a sound, as I can't find an LED and it's 3AM~~ bought some LEDs
 
-![The Box](https://raw.githubusercontent.com/sciencedude100/theBox/master/theBox.png)
+![The Box](https://raw.githubusercontent.com/sciencedude100/theBox/master/theBox.jpg)
 
 ## Usage
 1. Install Dependencies with `install-requirements.sh`
